@@ -1,0 +1,32 @@
+{
+  "data_dir": "/content/goodbooks-10k",
+  "results_dir": "/content/partD_outputs",
+  "seed": 42,
+  "cpu": false,
+  "epochs": 3,
+  "batch_size": 2048,
+  "embedding_dim": 64,
+  "neg_ratio": 1,
+  "lr": 0.001,
+  "weight_decay": 1e-06,
+  "k": 10,
+  "max_seq_len": 50,
+  "gc_layers": 3,
+  "num_workers": 6,
+  "rating_threshold": 3.0,
+  "neumf_neg_ratio": 4,
+  "neumf_layers": [
+    256,
+    128
+  ],
+  "neumf_dropout": 0.15,
+  "ssr_blocks": 2,
+  "ssr_heads": 2,
+  "ssr_dropout": 0.2,
+  "alpha_pop": 0.0,
+  "run_pop": true,
+  "run_neumf": true,
+  "run_ssr": true,
+  "run_lightgcn": true,
+  "preview_users": 5
+}
