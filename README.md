@@ -35,6 +35,7 @@ print("Saved to /content/data/ratings.csv")
 Option B — Mount Google Drive
 
 from google.colab import drive
+
 drive.mount('/content/drive')  # follow the prompt
 
 Run the notebook cells in order:
