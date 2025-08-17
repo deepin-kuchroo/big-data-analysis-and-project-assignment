@@ -23,9 +23,13 @@ from google.colab import files
 import os, shutil
 
 os.makedirs("/content/data", exist_ok=True)
+
 uploaded = files.upload()  # choose ratings.csv from your computer
+
 shutil.move(next(iter(uploaded.keys())), "/content/data/ratings.csv")
+
 print("Saved to /content/data/ratings.csv")
+
 
 
 Option B — Mount Google Drive
